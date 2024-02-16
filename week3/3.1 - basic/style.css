@@ -1,0 +1,38 @@
+
+
+body { 
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Sixtyfour', sans-serif;
+}
+
+
+.element{
+    width:200px;
+    height: 200px; 
+    text-align: center;
+    padding-top: 30px; 
+}
+
+.element-1 {
+    background-color:red; 
+
+}
+
+.element-2 {
+    background-color:blue; 
+}
+
+ .element-3 {
+    background-color:green; 
+ }
+
+
+.container {
+    height: 100vh; 
+    display: flex;
+    flex-flow:row wrap;
+    justify-content: center;
+    align-items:center;
+    align-content: center;
+    gap: 0em; 
+}

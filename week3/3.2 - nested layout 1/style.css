@@ -1,0 +1,40 @@
+
+body { 
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Sixtyfour', sans-serif;
+}
+
+
+.element{
+    width:33.3vw;
+    height:100vh;
+    text-align: center;
+    padding-top: 30px; 
+}
+
+.element-1 {
+    background-color:red; 
+
+}
+.element-2 {
+    background-color:blue; 
+}
+
+ .element-3 {
+    background-color:green; 
+ }
+
+ .element-4 {
+    background-color:orange; 
+ }
+
+.row-container {
+    height: 100vh; 
+    display: flex;
+    flex-flow:row; 
+}
+
+.column-container{
+    display: flex;
+    flex-flow: column;
+}

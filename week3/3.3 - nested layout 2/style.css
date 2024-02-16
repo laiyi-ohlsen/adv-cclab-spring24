@@ -1,0 +1,52 @@
+@font-face{
+    font-family: 'Sixtyfour';
+    src: url('./font/Sixtyfour/Sixtyfour-Regular-VariableFont_BLED,SCAN.ttf');
+}
+
+body { 
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Sixtyfour', sans-serif;
+}
+
+
+.element{
+    text-align: center;
+    padding-top: 30px; 
+}
+
+.header { 
+    background-color: blue; 
+    min-height:20vh;
+}
+
+.content{ 
+    width: 33vw; 
+}
+
+.content-1 { 
+    background-color: orange;     
+}
+
+.content-2 { 
+    background-color: orangered; 
+}
+
+.content-3 {
+    background-color: yellow; 
+}
+.footer {
+    background-color: green; 
+    min-height:20vh;
+}
+
+.column-container{ 
+    height: 100vh; 
+    display: flex; 
+    flex-flow: column;
+}
+
+.row-container{
+    flex-grow: 1;
+    display: flex; 
+    flex-direction: row; 
+}
