@@ -1,0 +1,43 @@
+.container {
+    display: grid; 
+    grid-template-rows: repeat(4, 25vh);
+    grid-template-columns: repeat(4, 25vw);
+}
+
+.header {
+    border: 1px solid gray;
+    grid-area: 1 / 1 / 2 / 5; 
+}
+
+.footer {
+    border: 1px solid gray;
+    grid-area: 4 / 1 / 5 / 5; 
+}
+
+.water-1 {
+    background-image: url('images/water1.jpg');
+    background-size: cover;
+    border: 1px solid gray;
+    grid-area: 2 / 1 / 4 / 2; 
+}
+
+.water-2 {
+    background-image: url('images/water2.jpg');
+    background-size: cover;
+    border: 1px solid gray;
+    grid-area: 2 / 2 / 4 / 3; 
+}
+
+.water-3 {
+    background-image: url('images/water3.jpg');
+    background-size: cover;
+    border: 1px solid gray;
+    grid-area: 2 / 3 / 4 / 4; 
+}
+
+.water-4 {
+    background-image: url('images/water4.jpg');
+    background-size: cover;
+    border: 1px solid gray;
+    grid-area: 2 / 4 / 4 / 5; 
+}

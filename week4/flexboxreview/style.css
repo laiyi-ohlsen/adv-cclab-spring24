@@ -1,0 +1,50 @@
+.outer-container{
+    display: flex;
+    height: 100vh;
+    flex-flow: column;
+}
+
+.inner-container {
+    display:flex;
+    flex-grow: 1;
+}
+
+.header {
+    height: 25vh;
+    border: 1px solid gray;
+    font-size: 2em;
+    display: flex; 
+    justify-content: start;
+    align-items: center;
+}
+
+.footer {
+    height: 25vh;
+    border: 1px solid gray;
+    display: flex; 
+    font-size: 2em;
+    justify-content: end;
+    align-items: center;
+}
+
+.image {
+    width: 25vw;
+   
+}
+
+.image-1{
+   background-image: url('images/water1.jpg'); 
+   background-size:cover;
+}
+.image-2{
+    background-image: url('images/water2.jpg'); 
+   background-size:cover;
+}
+.image-3{
+    background-image: url('images/water3.jpg'); 
+   background-size:cover;
+}
+.image-4{
+    background-image: url('images/water4.jpg'); 
+   background-size:cover;
+}
