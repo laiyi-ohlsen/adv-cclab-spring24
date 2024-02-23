@@ -1,0 +1,74 @@
+.main {
+    background-color: rgb(72, 52, 52);
+}
+
+.page-2 {
+    background-color: rgb(72, 52, 52);
+}
+
+.container {
+    display: grid;
+    max-width: 100%;
+    height: 100vh;
+    grid-template-rows: repeat(7, 1fr);
+    grid-template-columns: repeat(13, 1fr);
+}
+
+.title {
+    border-style: solid;
+    border-width: 1px;
+    border-color: limegreen;    
+    color: whitesmoke;
+    font-family: "Cinzel Decorative", serif;
+    font-weight: 100;
+    font-style: normal;
+}
+
+.title-1{
+    grid-area: 4 / 6 / 5 / 7;
+    display: flex ;
+    justify-content: center;
+    align-items: center; 
+    letter-spacing:0.5em;
+    text-align: center;
+   }
+
+.material-symbols-outlined {
+    color: whitesmoke;
+    font-variation-settings:
+    'FILL' 0,
+    'wght' 300,
+    'GRAD' 0,
+    'opsz' 24;
+    grid-area: 4 / 7 / 5 / 8;
+    text-align: center;
+    margin: auto;
+    text-decoration: none;
+    transition: color .7s;
+}
+
+.material-symbols-outlined:hover {
+    color: cyan;
+}
+
+.title-2 {
+    grid-area: 4 / 8 / 5 / 9;
+    display: flex; 
+    justify-content: center;
+    align-items: center; 
+    letter-spacing:0.5em;
+    text-align: center;
+    text-indent: 0.8em;
+}
+
+#letter-1 {
+    font-size: 20px;
+    text-align: right; 
+    text-indent: .5em;
+}
+
+#letter-2 {
+    font-size: 20px;
+    text-align: left; 
+    text-indent: 0;
+}
