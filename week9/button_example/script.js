@@ -32,15 +32,11 @@ btn.addEventListener("click", () => {
     ------------------------------------------------*/
 
     /* ------------------------------------------------
-    // PART THREE - replace headers with new words
+    // PART THREE - OPTION A - replace headers with new words
 
     let frm1 = document.getElementById ("frm1"); 
 
     let h2s = document.getElementsByTagName("H2");
-
-    console.log(frm1);
-    console.log(frm1.elements);
-    console.log(h2s);
 
     h2s[0].innerHTML = frm1.elements[0].value; 
     h2s[1].innerHTML = frm1.elements[1].value; 
@@ -48,15 +44,11 @@ btn.addEventListener("click", () => {
 
 
     /* ------------------------------------------------
-    // PART 4 - add headers instead of replacing 
+    // PART FOUR - OPTION 2 - add headers instead of replacing 
 
     let frm1 = document.getElementById ("frm1"); 
 
     let h2s = document.getElementsByTagName("H2");
-
-    console.log(frm1);
-    console.log(frm1.elements);
-    console.log(h2s);
 
     let i; 
     let elem = []; 
