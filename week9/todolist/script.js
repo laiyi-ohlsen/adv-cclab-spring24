@@ -10,7 +10,7 @@ btn.addEventListener("click", () => {
     newItem.innerHTML = todo.elements[0].value; 
     
     let list = document.getElementById("list");
-    console.log(list)
+    // console.log(list)
     list.appendChild(newItem);
     todo.elements[0].value ="";
 })
